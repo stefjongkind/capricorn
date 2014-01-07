@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/MIT-LICENSE
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/README
+END

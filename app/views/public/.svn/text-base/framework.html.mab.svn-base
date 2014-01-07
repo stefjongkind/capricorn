@@ -1,0 +1,8 @@
+h2 "Frameworks"
+p :class => :note do
+  span {"Read more about the following frameworks I am experienced in"}
+end
+ul do
+	li {link_to('Various relational database management systems (RDBMS)', :action => :database) }
+	li {link_to('Ruby on Rails development environment', :action => :rails) }
+end

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/test_helper.rb
+END
+markaby_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/markaby_test.rb
+END
+monkeys.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/monkeys.html
+END
+markaby_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/markaby_controller_test.rb
+END

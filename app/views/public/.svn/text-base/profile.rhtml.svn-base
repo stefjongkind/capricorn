@@ -1,0 +1,39 @@
+<table>
+	<tr valign='top	'>
+		<td width='250'>
+			<%= image_tag '/images/stef.gif', {:align=>'left', :border=>'1'} %>
+			
+		</td>	
+		<td width='400'>
+			<table>
+				<tr valign='top'><td></td><td><h2>Stef Jongkind</h2></td></tr>
+				
+				<tr valign='top'>
+						<td width='25'><span class='bullet'>&nbsp;</span></td>
+						<td width='500'><span class='note'>Originally from the Netherlands, I've worked professionally in the ICT industry for more than twenty years (and in New Zealand since 1994) on all sorts of projects on a whole range of platforms</span></td>
+				</tr>
+				<tr valign='top'>
+						<td width='25'><span class='bullet'>&nbsp;</span></td>
+						<td width='500'><span class='note'>After having worked for organisations varying from large corporations to small businesses I am currently operating as a sole trader</span></td>
+				</tr>
+				<tr valign='top'>
+						<td width='25'><span class='bullet'>&nbsp;</span></td>
+						<td width='500'><span class='note'>Current platforms: Unix, Windows and Mac</span></td>
+				</tr>
+				<tr valign='top'>
+						<td width='25'><span class='bullet'>&nbsp;</span></td>
+						<td width='500'><span class='note'>Windows: Visual Basic and MS SQL Server</span></td>
+				</tr>
+				<tr valign='top'>
+						<td width='25'><span class='bullet'>&nbsp;</span></td>
+						<td width='500'><span class='note'>Unix, Mac: Ruby on Rails, PHP, HTML, Javascript, PostgreSQL, MySQL </span></td>
+				</tr>
+				<tr valign='top'>
+						<td width='25'></td>
+						<td width='500'><span class='note'>I am currently living with my family in Golden Bay in the top of the South Island of New Zealand</span></td>
+				</tr>
+			</table>		
+		</td>	
+	</tr>	
+</table>		
+

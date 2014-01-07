@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/Rakefile
+END
+VERSION.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/VERSION.yml
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/init.rb
+END
+markaby.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/markaby.gemspec
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/README
+END

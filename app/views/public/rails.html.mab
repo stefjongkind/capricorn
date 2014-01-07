@@ -1,0 +1,14 @@
+h2 "Ruby on Rails"
+p.legend do
+  span {"In the web environment today I am a strong supporter of the Ruby on Rails framework. Ruby on Rails is a web application framework released in 2004 that aims to increase the speed and ease of web development. Often shortened to Rails, or RoR, it is an open source project written in the Ruby language. Ruby on Rails is a breakthrough in lowering the barriers of entry to programming. Powerful web applications that formerly might have taken weeks or months to develop can be produced in a matter of days."}
+  br
+  span.note{"Tim O'Reilly, Founder of O'Reilly Media"}
+end
+p.legend do
+  span {"Rails is the most well thought-out web development framework I have ever used.
+  And that is in a decade of doing web applications for a living. I have built my
+  own frameworks, helped develop the Servlet API, and have created more than
+  a few web servers from scratch. Nobody has done it like this before."}
+  br
+  span.note {"James Duncan Davidson, Creator of Tomcat and Ant"}
+end

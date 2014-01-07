@@ -1,0 +1,18 @@
+html do
+  head do
+   title 'Capricorn Information Systems'
+   stylesheet_link_tag 'capricorn'
+   stylesheet_link_tag 'listmenu_h' , {:id=>'listmenu'}
+   javascript_include_tag(:all, :cache => true)
+  	 link :rel => "Shortcut Icon", :href => "/images/capricorn_icon.png", :type => "image/x-icon" 
+  end
+
+  body do
+   	div.capricorn! {image_tag '../images/capricorn.gif', :border =>'0'}
+    div.wrapper! do
+      render :partial => 'menu'
+   		div.content! {div.text! {self << content_for_layout}}
+    end
+  end
+end
+

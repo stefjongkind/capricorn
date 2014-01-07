@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments
+END
+in_memory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments/in_memory.rb
+END
+sqlite.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments/sqlite.rb
+END
+postgresql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments/postgresql.rb
+END
+sqlite3.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments/sqlite3.rb
+END
+mysql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby/test/app_root/config/environments/mysql.rb
+END

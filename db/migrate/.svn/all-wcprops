@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/capricorn/!svn/ver/1/db/migrate
+END
+001_add_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/capricorn/!svn/ver/1/db/migrate/001_add_sessions.rb
+END

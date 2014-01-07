@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates
+END
+view_edit.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_edit.html.mab
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/helper.rb
+END
+view_index.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_index.html.mab
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/functional_test.rb
+END
+view_new.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_new.html.mab
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/controller.rb
+END
+markaby_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/markaby_helper_test.rb
+END
+markaby_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/markaby_helper.rb
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/style.css
+END
+view_show.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/view_show.html.mab
+END
+layout.html.mab
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/capricorn/!svn/ver/1/vendor/plugins/markaby_scaffold/generators/markaby_scaffold/templates/layout.html.mab
+END

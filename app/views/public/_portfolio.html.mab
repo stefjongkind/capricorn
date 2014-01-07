@@ -1,0 +1,55 @@
+div.website do
+  h2 {"Projects"} 
+	table do
+		tr do
+			td :height=>'270' do
+#				h3 {"First National"} 
+				div :class=>'image' do
+					span {link_to image_tag('/images/firstnat.gif', :border=>'0', :height=>'200'), 'http://www.goldenbayproperty.com', :target=>'_blank', :valign=>'top' 	}
+					span {"First National"} 
+					div.caption {"Real Estate in Golden Bay"} 
+					span.joint {"Content Management System. Joint project with "}
+					span {link_to "Nutcracker Design", 'http://www.nutcracker.net.nz', :target=>'blank'} 
+				end
+			 end 
+ 			td do 
+# 				h3 {"Rankers"}
+				div :class=>'image' do
+ 					span {link_to image_tag('/images/rankers.gif', :border=>'0', :height=>'200'), 'http://www.rankers.co.nz', :target=>'_blank', :valign=>'top' 	}
+ 					span {"Rankers"}
+ 					div.caption {"New Zealand's Word-of-Mouth Travel Website"} 
+ 					span.joint {"Subscription based system. Joint project with "}
+					span {link_to "Nutcracker Design", 'http://www.nutcracker.net.nz', :target=>'blank'} 
+				end
+			end
+			td do 
+#				h3 {"Tracks"}
+				div :class=>'image' do
+					div.caption {link_to image_tag('/images/tracks.gif', :border=>'0', :height=>'200'), 'http://www.tracks.net.nz', :target=>'_blank', :valign=>'top' 	}
+					span {"Tracks"}
+					div.caption {"Nature based, community led rites of passage for boys."}
+					span.joint {"Online relation management and event admin system"} 
+				end
+			end
+		end
+		tr do
+			td do
+				div :class=>'image' do
+					span {link_to image_tag('/images/bluetree.gif', :border=>'0', :height=>'200'), 'http://www.thebluetree.co.nz', :target=>'_blank', :valign=>'top'}
+					span {"The Blue Tree"}
+					div.caption {"Online Boutique for Handmade, Pre-loved, Vintage & Retro Fashion"} 
+					span.joint {"Content management and order admin system"} 
+				end
+			 end 
+#      td do
+#        div :class=>'image' do
+#        	span {link_to image_tag('/images/beachbreak.gif', :border=>'0', :height=>'200'), 'http://www.beachbreakgoldenbay.co.nz', :target=>'_blank', :valign=>'top'}
+#        	span {"Beach Break"}
+#        	div.caption {"Beach Break - Accommodation - Golden Bay"} 
+#        	span.joint {"Content management system"} 
+#        end
+#      end 
+    end
+
+ end
+end 

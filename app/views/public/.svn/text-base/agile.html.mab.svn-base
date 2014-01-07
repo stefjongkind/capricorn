@@ -1,0 +1,13 @@
+  h2 {"Agile Web Development"}
+  p.legend {"Agile web development is a model for development of web applications. Its concept is similar to Agile software development, but is limited to web applications. It is more efficient and powerful within a shorter timeline than other models, incorporates face-to-face communication, and includes technical personnel as well as customers as part of the team. Agile web development uses project managers, business analysts, emphases on clear goals, planning, and iterative delivery. Agile web development ensures the successful completion of product at the end of each iteration."}
+p.legend {" The agile web development model follows planning, requirement analysis, designing, coding, testing, and documentation developing stages parallel. Successful interaction reaches toward to successful completion of application because of customer involvement hence we never met with the condition where we have to change the product due to changes in requirements, correct decision has to be taken by keeping customers confidence and informed choice, minimizing delays of the product. All the tasks are performed at given period, with just enough documentation to be effective."}
+
+  ul do
+    li {"Short timeline."}
+    li {"Refined Team."}
+    li {"Clear planning."}
+    li {"Concise Documentation."}
+  end
+  p.legend {"Due to the regular involvement and feedback of the customer, the application tends to be more error free, more requirement oriented, and more user friendly. Also, tasks such as planning, development, design, coding, testing, etc. are done simultaneously, driven by the customer’s demands. It also reduces the development cycle time. The documentation of the application is less formal, to reduce the time taken and to be more human friendly."}
+  
+  p.legend {"For instance, the waterfall model frequently changes requirements during the development life cycle, which means it fails whenever the requirements are changed at the end or not properly understood or implemented according to the customer's current feedback. In the iterative incremental model, the development process moves according to the iterations. Requirements analysis, designing, and functional modification must be added at each version or iteration of a system to satisfy the customer feedback, and at last it is integrated into the system. Agile development adopted the key points from an iterative model but differs from iterative in relation to the timeboxes. An agile development life cycle devotes attention to a shorter time duration for completion of the project. With the help of timeboxes, developers can easily estimate the problem and correct it in a given time, so that at the end of each iteration, it is modified."}

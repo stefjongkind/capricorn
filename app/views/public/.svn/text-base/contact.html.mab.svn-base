@@ -1,0 +1,15 @@
+h2 "Contact Information"
+p.legend do
+	span {"Capricorn Information Systems"}
+	br
+	span {"PO Box 226"}
+	br
+	span {"Takaka 7142"}
+	br
+	span {"New Zealand"}
+	br
+	span {"Phone +64 3 5257249"}
+	br
+	span {"Email: "}
+	a "stefjongkind@gmail.com", :href => 'mailto:stefjongkind@gmail.com' 
+end

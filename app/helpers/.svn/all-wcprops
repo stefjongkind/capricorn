@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/capricorn/!svn/ver/1/app/helpers
+END
+public_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/capricorn/!svn/ver/1/app/helpers/public_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/capricorn/!svn/ver/1/app/helpers/application_helper.rb
+END
+markaby_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/capricorn/!svn/ver/1/app/helpers/markaby_helper.rb
+END

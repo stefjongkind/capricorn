@@ -1,0 +1,15 @@
+div.menu! do
+	ul :class => :menulist, :id => "listMenuRoot" do
+    li {link_to "Home", {:action=>:index}}
+    li {link_to "Services", {:action=>:services}}
+    li do
+#  	  span {link_to "Portfolio", :action=>:portfolio}
+     ul do
+       li {a "First National - Golden Bay", :href => "http://www.goldenbayproperty.com"}
+       li {a "Rankers", :href => "http://www.rankers.co.nz"}
+  	  end
+  	end
+#    li {link_to "Agile", :action => :agile}
+    li {link_to "Contact", :action => :contact}
+	end
+end

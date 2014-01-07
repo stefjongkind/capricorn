@@ -1,0 +1,6 @@
+h1 {"Relational Database Management Systems"}
+h2 {"PostgreSQL"}
+p.legend {"PostGreSQL is an open-source object relational DBMS (ORDBMS) that traces its roots back to a database called Postgres (developed at UC Berkley in the early 80's). It is perhaps the most feature-rich robust open-source database around and perhaps the most feature rich even among non-open source databases."}
+p.legend {"PostGreSQL in addition to being a relational database, is object-relational as well. What this means is that it has some object-oriented features such as concept of inheritance and ability to define complex datatypes with special functions to deal with these datatypes, but is for the most part relational in nature. In fact, most uses of Postgres do not take advantage of it's extensive object-oriented functionality. It has features that you may not find in even expensive well-known commercial relational database management systems (RDBMS) and ORDBMS systems."}
+h2 {"MS SQL Server"}
+p.legend {"Microsoft SQL Server is a powerful relational database management system catering to high-end users with advanced needs. Along with Oracle, Microsoft SQL Server is widely regarded as one of the two main full-featured database systems on the market today."}
