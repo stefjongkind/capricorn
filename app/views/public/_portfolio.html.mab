@@ -1,6 +1,6 @@
 div.website do
   h2 {"Projects"} 
-	table do
+	table :cellspacing=>'10px' do
 		tr do
 			td :height=>'270' do
 #				h3 {"First National"} 
@@ -23,7 +23,7 @@ div.website do
 			td do 
 #				h3 {"Tracks"}
 				div :class=>'image' do
-					div.caption {link_to image_tag('http://www.tracks.net.nz/images/ropf/ropf.gif', :border=>'0', :width=>'400px'), 'http://www.tracks.net.nz', :target=>'_blank', :valign=>'top' 	}
+					div.caption {link_to image_tag('http://www.tracks.net.nz/images/tracks_logo.jpg', :border=>'0', :width=>'400px'), 'http://www.tracks.net.nz', :target=>'_blank', :valign=>'top' 	}
 					div.caption {"Nature based, community led rites of passage for boys."}
 					span.joint {"Online relation management and event admin system"} 
 				end

@@ -18,8 +18,8 @@ test:
 
 production:
   adapter: mysql
-  database: capricorn
-  username: waiatear
+  database: waiatea2_capricornz
+  username: waiatea2
   password: marama7142
   host: localhost
   encoding: utf8
