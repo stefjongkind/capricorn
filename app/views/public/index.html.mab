@@ -1,5 +1,5 @@
 div.homepage! do
-  h2 {"Professional Web Solutions"}
-  p.legend {"Development of Dynamic Web Sites, ranging from simple Content Management and e-Commerce to Advanced Business Systems."}
+  h2 {"Web Based Business Solutions"}
+  p.legend {"Development of Web Sites, ranging from simple Content Management to Advanced Business Systems."}
   render :partial => 'portfolio'
 end 

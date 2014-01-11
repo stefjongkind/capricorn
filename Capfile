@@ -3,9 +3,12 @@ Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
 load 'config/deploy'
 
 after "deploy:update_code", :roles => [:web, :db, :app] do
-	run "rm -f /home/waiatear/capricorn"
-	run "ln -s /home/waiatear/railsapp/capricorn/current/public  /home/waiatear/capricorn"
-	run "chmod 755 /home/waiatear/capricorn -R" 
+	run "chmod 755 #{release_path}/public"
+	run "chmod 755 #{release_path}/public/dispatch.fcgi"
+	run "chmod 755 #{release_path}/public/dispatch.cgi"
+	run "rm -f public_html/capricornz.com"
+	run "ln -s /home/waiatea2/railsapp/capricornz/current/public  ~/public_html/capricornz.com"
+	run "chmod 755 public_html/capricornz.com -R" 
 end
 
 after "deploy:update", "deploy:cleanup" 

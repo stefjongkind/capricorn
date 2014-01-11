@@ -39,6 +39,7 @@ tr {
 
 td {
 	/*borders and padding to make the table readable*/
+	margin:0;
 	padding-left: 5px;
 }
 
@@ -139,13 +140,6 @@ li a {
 	vertical-align:top;
 	padding:0;
 	margin:0;
-}
-
-.image {
-	padding:0;
-	margin:0;
-	height:auto;
-	vertical-align:bottom;
 }
 
 
@@ -260,6 +254,10 @@ table.portfolio {
 	background:#fff;
 }
 
+.website table td {
+	margin:0;
+}
+
 .website h3 {
 	font-family: helvetica, sans-serif;
 	color:#666;
@@ -272,11 +270,16 @@ table.portfolio {
 	font-weight: normal;
 	text-decoration:none;
 }
+.image {
+}
 
-.website .image{
-	padding:0;
-	height:140px;
-	padding-bottom:2em;
+.website td {
+	height:auto;
+	width:450px;
+	padding:1em;
+	margin:0;
+	border:1px dotted gray;
+	vertical-align:top;
 }
 
 .website .image a:hover{
