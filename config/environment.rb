@@ -10,6 +10,8 @@ RAILS_GEM_VERSION = '2.3.11' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
+require 'action_mailer'
+require 'rubygems'
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here
@@ -30,8 +32,10 @@ Rails::Initializer.run do |config|
   # Use the database for sessions instead of the file system
   # (create the session table with 'rake db:sessions:create')
   # config.action_controller.session_store = :active_record_store
-  config.action_controller.session = { :key  => "_myapp_session", :secret => "one does not simply walk into mordor" }
-  # Use SQL instead of Active Record's schema dumper when creating the test database.
+  config.action_controller.session = {
+    :key => '_capricornz_session',
+    :secret      => '3cf0ff51498b1df71e34ab06e39f6e54e936328adc3408b83edfa9f50b0b4a3dc7dbc27854badca2a7a0347fdedd5748622e432b11e5b6bbdbc370d42371888e'
+  }  # Use SQL instead of Active Record's schema dumper when creating the test database.
   # This is necessary if your schema can't be completely dumped by the schema dumper,
   # like if you have constraints or database-specific column types
   # config.active_record.schema_format = :sql
