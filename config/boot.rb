@@ -25,9 +25,8 @@ module Rails
       File.exist?("#{RAILS_ROOT}/vendor/rails")
     end
 
-    # FIXME : Ruby 1.9
     def preinitialize
-      load(preinitializer_path) if File.exists?(preinitializer_path)
+      load(preinitializer_path) if File.exist?(preinitializer_path)
     end
 
     def preinitializer_path
@@ -48,7 +47,6 @@ module Rails
       Rails::Initializer.run(:install_gem_spec_stubs)
       Rails::GemDependency.add_frozen_gem_path
     end
-    end
   end
 
   class GemBoot < Boot
@@ -67,7 +65,11 @@ module Rails
     rescue Gem::LoadError => load_error
       if load_error.message =~ /Could not find RubyGem rails/
         STDERR.puts %(Missing the Rails #{version} gem. Please `gem install -v=#{version} rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.)
-        exit 1    end
+        exit 1
+      else
+        raise
+      end
+    end
 
     class << self
       def rubygems_version
