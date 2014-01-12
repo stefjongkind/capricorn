@@ -6,9 +6,9 @@ after "deploy:update_code", :roles => [:web, :db, :app] do
 	run "chmod 755 #{release_path}/public"
 	run "chmod 755 #{release_path}/public/dispatch.fcgi"
 	run "chmod 755 #{release_path}/public/dispatch.cgi"
-	run "rm -f public_html/capricornz.com"
-	run "ln -s /home/waiatea2/railsapp/capricornz/current/public  public_html/capricornz.com"
-	run "chmod 755 public_html/capricornz.com -R" 
+#	run "rm -f ~/public_html/capricornz.com"
+#	run "ln -s /home/waiatea2/railsapp/capricornz/current/public  ~/public_html/capricornz.com"
+#	run "chmod 755 ~/public_html/capricornz.com -R" 
 #	run "chown -R #{user}:#{user} /home/#{user}/#{applicationdir}" 
 #	run "chmod 755 #{current_path}/public -R" 
 end
