@@ -22,6 +22,7 @@ p {
 	}
 	
 table {
+	margin:0;
 	padding:10px;
 	height:auto;
 }
@@ -247,11 +248,12 @@ td .note a {
 
 .website {
 	padding:1em;
-	width:120%;
-	background:url(/images/patterns/egg_shell.png);
+	padding-left:0;
+	width:auto;
 }
 .website table td {
 	margin:0;
+	padding:0;
 }
 
 .website h3 {
@@ -266,13 +268,10 @@ td .note a {
 	font-weight: normal;
 	text-decoration:none;
 }
-.image {
-}
 
 .website td {
 	height:auto;
 	width:450px;
-	padding:1em;
 	margin:0;
 	vertical-align:top;
 }
@@ -281,11 +280,12 @@ td .note a {
 	color:orange;
 	} 
 	
-.website img {
+/*.website img {
 	background:#fff;
 	width:300px;
 	    box-shadow: 3px 3px 3px #7C7C7C;
 	    }
+	*/
 div.caption {
 	margin:0;
 	padding:0;
@@ -312,4 +312,144 @@ div.caption {
 	background:white;
 }
 
-/
+.css3-shadow,
+.css3-gradient1,
+.css3-gradient2
+{
+  	position:relative;
+	background:#fff;
+	padding:20px;
+	height:200px;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*==================================================
+ * Drop shadow effect with box-shadow
+ * ===============================================*/
+.css3-shadow:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 40px rgba(0,0,0,0.8);
+    		box-shadow:0 0 40px rgba(0,0,0,0.8);
+    bottom:0px;
+	width:80%;
+	height:50%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+	left:10%;
+	right:10%;
+}
+
+/*==================================================
+ * Drop shadow effect with radial gradient
+ * ===============================================*/
+.css3-gradient1:after{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    top:100%;
+    bottom:0;
+	width:120%;
+	height:50px;
+	left:-10%;
+	right:-10%;
+background:-webkit-radial-gradient(50% -3%, ellipse cover, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0.0) 40%);
+background:		   radial-gradient(ellipse at 50% -3%, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0.0) 40%);
+}
+
+/*==================================================
+ * Glow effect with box-shadow
+ * ===============================================*/
+.css3-gradient2:after{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    top:100%;
+    bottom:0;
+	width:120%;
+	height:90px;
+	left:-10%;
+	right:-10%;
+background: -webkit-radial-gradient(50% -3%, ellipse cover, rgba(96, 251, 202, 0.8), rgba(112, 220, 255, 0.5), rgba(255, 116, 225, 0.0) 50%), -webkit-radial-gradient(80% 10%, circle contain, rgba(96, 251, 202, 0.8), rgba(255, 255, 255, 0.0) 180%), -webkit-radial-gradient(90% 20%, circle contain, rgba(255, 255, 202, 0.8), rgba(255, 255, 255, 0.0) 60%);
+background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112, 220, 255, 0.5), rgba(255, 116, 225, 0.0) 50%), radial-gradient(circle at 80% 10%, rgba(96, 251, 202, 0.8), rgba(255, 255, 255, 0.0) 2%), radial-gradient(circle at 90% 20%, rgba(255, 251, 202, 0.8), rgba(255, 255, 255, 0.0) 1%);
+}
+/*==================================================
+ * Tabs
+ * ===============================================*/
+.tabrow {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.tabrow li {
+    margin: 0 10px;
+    padding: 0 10px;
+    border: 1px solid #AAA;
+    background: #ECECEC;
+    display: inline-block;
+
+}.tabrow li.selected {
+    background: #FFF;
+    color: #000;
+}
+
+.tabrow {
+    position: relative;
+}
+.tabrow:after {
+    position: absolute;
+    content: "";
+    width: 140%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #AAA;
+    z-index: 1;
+}
+
+.tabrow:before {
+    z-index: 1;
+}
+.tabrow li {
+    position: relative;
+    z-index: 0;
+}
+.tabrow li.selected {
+    z-index: 2;
+    border-bottom-color: #FFF;
+}
+
+.tabrow li a {
+	color:gray;
+}
+.tabrow li a:hover {
+	color:blue;
+}
+.tabrow li {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.tabrow li:before {
+    border-bottom-right-radius: 6px;
+    border-width: 0 1px 1px 0;
+}
+.tabrow li:after {
+    border-bottom-left-radius: 6px;
+    border-width: 0 0 1px 1px;
+}
+
+.tabrow li {
+    background:      -o-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+    background:     -ms-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+    background:    -moz-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+    background: -webkit-linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+    background: linear-gradient(top, #ECECEC 50%, #D1D1D1 100%);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;
+    text-shadow: 0 1px #FFF;
+    margin: 0 -5px;
+    padding: 0 20px;
+}
