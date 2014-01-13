@@ -1,8 +1,10 @@
 # General Apache options
-AddHandler fastcgi-script .fcgi
+#AddHandler fastcgi-script .fcgi
 AddHandler cgi-script .cgi
 Options +FollowSymLinks +ExecCGI
 
+RailsBaseURI /
+PassengerAppRoot /home/waiatea2/railsapp/capricornz/current
 # If you don't want Rails to look in certain directories,
 # use the following rewrite rules so that Apache won't rewrite certain requests
 # 
