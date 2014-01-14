@@ -418,6 +418,7 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
     position: relative;
     z-index: 0;
 }
+
 .tabrow li.selected {
     z-index: 2;
     border-bottom-color: #FFF;
@@ -452,4 +453,58 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
     text-shadow: 0 1px #FFF;
     margin: 0 -5px;
     padding: 0 20px;
+}
+
+.tabrow li.active {
+    background:      -o-linear-gradient(top, #529fd7 50%, #D1D1D1 100%);
+    background:     -ms-linear-gradient(top, #529fd7 50%, #D1D1D1 100%);
+    background:    -moz-linear-gradient(top, #529fd7 50%, #D1D1D1 100%);
+    background: -webkit-linear-gradient(top, #529fd7 50%, #D1D1D1 100%);
+    background: linear-gradient(top, #529fd7 50%, #D1D1D1 100%);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 #FFF;
+    text-shadow: 0 1px #FFF;
+    margin: 0 -5px;
+    padding: 0 20px;
+}
+
+.tabrow li.active a {
+    text-shadow:none;
+	color:white;
+}
+*  ERROR handling */
+
+.fieldWithErrors {
+  padding: 1px;
+  border:1px dotted red;
+  background-color: #e85120;
+  display: table;
+}
+
+#errorExplanation {
+	width:50%;
+	padding:0;
+	margin-bottom: 10px;
+	font-style:italic;
+	color: #fff;
+	background:#ddb386;
+	padding:7px;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  color: #e85120;
+}
+
+#errorExplanation p {
+  color: #333;
+	font-size:9px;
+  padding: 5px 5px 5px 15px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
 }

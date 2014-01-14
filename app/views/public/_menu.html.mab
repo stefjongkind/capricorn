@@ -1,9 +1,14 @@
 div.menu! do
   ul.tabrow do
 #	ul.menulist :id => "listMenuRoot" do
-    li {link_to "Home", {:action=>:index}}
-    li {link_to "Services", {:action=>:services}}
-    li {link_to "Agile", :action => :agile}
-    li {link_to "Contact", :action => :contact}
+    li :class=> @current_action == 'index' ? 'active' : '' do
+      span {link_to "Home", {:action=>:index}}
+    end
+    li :class=> @current_action == 'services' ? 'active' : '' do
+      span {link_to "Services", {:action=>:services}}
+    end
+    li :class=> @current_action == 'contact' ? 'active' : '' do
+      span {link_to "Contact", :action => :contact}
+    end
 	end
 end

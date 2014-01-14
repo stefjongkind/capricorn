@@ -1,3 +1,4 @@
+div.errorExplanation! {flash[:notice]} if flash[:notice]
 div.content! do
   h2 "Contact Information"
   p.legend do
