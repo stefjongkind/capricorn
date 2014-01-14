@@ -1,5 +1,5 @@
 div.homepage! do
-  h2 {"Inernet Business Solutions"}
+  h2 {"Internet Business Solutions"}
   p {"Development of Web Sites, ranging from simple Content Management to Advanced Business Systems."}
   render :partial => 'portfolio'
 end 
