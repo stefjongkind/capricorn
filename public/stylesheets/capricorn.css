@@ -200,6 +200,46 @@ li a {
 	color:#3d3d3d;
 }
 
+.info {
+	float:left;
+	width:250px;
+}
+
+.profile {
+	float:left;
+	width:210px;
+	padding:10px;
+	margin-right:2em;
+}
+
+span.caption {
+	margin:0;
+	padding:0;
+	font-size: 12px;
+	font-style: italic;	
+	font-weight: normal;
+	line-height: 20px;
+	color:#666;
+	margin-top:5px;
+	float:right;
+}
+
+.form {
+	margin:0;
+	padding:0;
+	width:1200px;
+	height:450px;
+	
+}.form ul {
+	margin-top:0;
+	padding-top:0;
+}
+
+p.submit {
+	width:380px;
+	float:right;
+}
+
 p.legend {
 	font-style:italic;
 	margin-top:1em;
@@ -304,6 +344,7 @@ div.caption {
 	color:#666;
 	margin-top:5px;
 }
+
 .website .joint {
 	font-size:9px;
 	font-style: italic;	
@@ -319,6 +360,9 @@ div.caption {
 .website .joint a:hover {
 	background:white;
 }
+/*==================================================
+ * Drop shadow effect with box-shadow
+ * ===============================================*/
 
 .css3-shadow,
 .css3-gradient1,
@@ -327,14 +371,11 @@ div.caption {
   	position:relative;
 	background:#fff;
 	padding:20px;
-	height:200px;
+	height:208px;
 	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/*==================================================
- * Drop shadow effect with box-shadow
- * ===============================================*/
 .css3-shadow:after
 {
 	content:"";
