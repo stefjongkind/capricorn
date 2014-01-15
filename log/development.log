@@ -7391,3 +7391,49 @@ Rendering template within layouts/application
 Rendering public/contact
 Rendered public/_menu (82.5ms)
 Completed in 116ms (View: 110, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-01-16 10:26:33) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_portfolio (88.4ms)
+Rendered public/_menu (9.7ms)
+Completed in 159ms (View: 154, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:26:35) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (9.4ms)
+Completed in 123ms (View: 117, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:26:46) [POST]
+  Parameters: {"name"=>"toodeloo", "msg"=>"capricornz.com", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+Sent mail to info@capricornz.com
+
+Date: Thu, 16 Jan 2014 10:26:46 +1300
+From: stefjongkind@gmail.com
+To: info@capricornz.com
+Subject: Capricornz enquiry
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Enquiry message from: toodeloo</p><p>capricornz.com</p>
+Redirected to http://localhost:3000/public/contact#errorExplanation
+Completed in 581ms (DB: 0) | 302 Found [http://localhost/public/contact?url%5Baction%5D=contact&url%5Banchor%5D=errorExplanation]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:26:47) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.4ms)
+Completed in 181ms (View: 175, DB: 0) | 200 OK [http://localhost/public/contact]
