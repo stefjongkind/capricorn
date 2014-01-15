@@ -7157,3 +7157,237 @@ Rendering public/index
 Rendered public/_portfolio (33.1ms)
 Rendered public/_menu (9.1ms)
 Completed in 81ms (View: 74, DB: 6) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-01-16 10:07:28) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_portfolio (93.0ms)
+Rendered public/_menu (12.0ms)
+Completed in 246ms (View: 240, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:07:33) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.4ms)
+Completed in 122ms (View: 116, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:07:53) [POST]
+  Parameters: {"name"=>"Stefano", "msg"=>"  map.connect ':controller/:action/:id'\r\n  map.connect ':controller/:action/:id.:format'\r\n", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+
+ActionView::MissingTemplate (Missing template notification/enquiry_notification.erb in view path app/views):
+  app/controllers/public_controller.rb:16:in `contact'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:10:20) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (6.5ms)
+Completed in 146ms (View: 140, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:10:23) [POST]
+  Parameters: {"name"=>"Stefano", "msg"=>"  map.connect ':controller/:action/:id'\r\n  map.connect ':controller/:action/:id.:format'\r\n", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+
+ActionView::MissingTemplate (Missing template notification/enquiry_notification.erb in view path app/views):
+  app/controllers/public_controller.rb:16:in `contact'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:10:35) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.5ms)
+Completed in 113ms (View: 108, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:10:38) [POST]
+  Parameters: {"name"=>"Stefano", "msg"=>"  map.connect ':controller/:action/:id'\r\n  map.connect ':controller/:action/:id.:format'\r\n", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+
+ActionView::MissingTemplate (Missing template notification/enquiry_notification.erb in view path app/views):
+  app/controllers/public_controller.rb:16:in `contact'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:11:15) [POST]
+  Parameters: {"name"=>"Stefano", "msg"=>"  map.connect ':controller/:action/:id'\r\n  map.connect ':controller/:action/:id.:format'\r\n", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+Sent mail to info@capricornz.com
+
+Date: Thu, 16 Jan 2014 10:11:15 +1300
+From: stefjongkind@gmail.com
+To: info@capricornz.com
+Subject: Capricornz enquiry
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<p>Enquiry message from: Stefano</p><p>  map.connect ':controller/:action/:id'
+  map.connect ':controller/:action/:id.:format'
+</p>
+Redirected to http://localhost:3000/public/contact#errorExplanation
+Completed in 162ms (DB: 0) | 302 Found [http://localhost/public/contact?url%5Baction%5D=contact&url%5Banchor%5D=errorExplanation]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:11:15) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.3ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:12:03) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.5ms)
+Completed in 50ms (View: 45, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:12:29) [POST]
+  Parameters: {"name"=>"Toodeloo Jones", "msg"=>"ActionController::RoutingError (No route matches \"/.well-known/autoconfig/mail/config-v1.1.xml\" with {:method=>:get}):\r\n  passenger (4.0.30) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:441:in `start_threads'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `initialize'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `new'\r\n  passenger (4.0.30) lib/phusion_passenger/r", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+Sent mail to info@capricornz.com
+
+Date: Thu, 16 Jan 2014 10:12:29 +1300
+From: stefjongkind@gmail.com
+To: info@capricornz.com
+Subject: Capricornz enquiry
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<p>Enquiry message from: Toodeloo Jones</p><p>ActionController::RoutingError (No route matches "/.well-known/autoconfig/mail/config-v1.1.xml" with {:method=>:get}):
+  passenger (4.0.30) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:441:in `start_threads'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `initialize'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `new'
+  passenger (4.0.30) lib/phusion_passenger/r</p>
+Redirected to http://localhost:3000/public/contact#errorExplanation
+Completed in 100ms (DB: 0) | 302 Found [http://localhost/public/contact?url%5Baction%5D=contact&url%5Banchor%5D=errorExplanation]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:12:29) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.9ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:13:32) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (6.3ms)
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:13:59) [POST]
+  Parameters: {"name"=>"Toodeloo", "msg"=>"ActionController::RoutingError (No route matches \"/.well-known/autoconfig/mail/config-v1.1.xml\" with {:method=>:get}):\r\n  passenger (4.0.30) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:441:in `start_threads'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `initialize'\r\n  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `new'\r\n  passenger (4.0.30) lib/phusion_passenger/r", "commit"=>"Submit", "url"=>{"anchor"=>"errorExplanation", "action"=>"contact"}, "email"=>"stefjongkind@gmail.com"}
+Sent mail to info@capricornz.com
+
+Date: Thu, 16 Jan 2014 10:13:59 +1300
+From: stefjongkind@gmail.com
+To: info@capricornz.com
+Subject: Capricornz enquiry
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<p>Enquiry message from: Toodeloo</p><p>ActionController::RoutingError (No route matches "/.well-known/autoconfig/mail/config-v1.1.xml" with {:method=>:get}):
+  passenger (4.0.30) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.30) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:441:in `start_threads'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `initialize'
+  passenger (4.0.30) lib/phusion_passenger/request_handler.rb:435:in `new'
+  passenger (4.0.30) lib/phusion_passenger/r</p>
+Redirected to http://localhost:3000/public/contact#errorExplanation
+Completed in 28ms (DB: 0) | 302 Found [http://localhost/public/contact?url%5Baction%5D=contact&url%5Banchor%5D=errorExplanation]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:13:59) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.4ms)
+Completed in 114ms (View: 109, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-01-16 10:14:18) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_portfolio (90.8ms)
+Rendered public/_menu (5.8ms)
+Completed in 134ms (View: 128, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-01-16 10:14:20) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (82.5ms)
+Completed in 116ms (View: 110, DB: 0) | 200 OK [http://localhost/public/contact]

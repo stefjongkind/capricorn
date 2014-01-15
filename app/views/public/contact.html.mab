@@ -1,36 +1,33 @@
-div.errorExplanation! {flash[:notice]} if flash[:notice]
-div.content! do
-  
-  div :class => "profile box css3-shadow" do
-    span {image_tag "/images/stef_profile.jpg"}
-    span.caption {"Stef Jongkind"}
+div :class => "profile box css3-shadow" do
+  span {image_tag "/images/stef_profile.jpg"}
+  span.caption {"Stef Jongkind"}
+end
+div.info do
+  h2 "Contact Information"
+  p.legend do
+  	span {"Capricorn Information Systems"}
+  	br
+  	span {"PO Box 226"}
+  	br
+  	span {"Takaka 7142"}
+  	br
+  	span {"New Zealand"}
+  	br
+  	span {"Phone +64 3 5257249"}
   end
-  div.info do
-    h2 "Contact Information"
-    p.legend do
-    	span {"Capricorn Information Systems"}
-    	br
-    	span {"PO Box 226"}
-    	br
-    	span {"Takaka 7142"}
-    	br
-    	span {"New Zealand"}
-    	br
-    	span {"Phone +64 3 5257249"}
-    end
-  end
-  div.form do
-    form_tag :url => { :action => :contact , :anchor => "errorExplanation" }  do 
-      ul do
-        p {"Send us a message"}
-        dt {label "Name"}
-      	span {text_field_tag :name, "", :value => (@name.blank? ? nil : @name)}
-        dt {label :email,  "Email"}
-        span {text_field_tag :email, "", :value => (@email.blank? ? nil : @email)}
-        dt {label :msg,  "Message"}
-        span {text_area_tag :msg, (@message.blank? ? nil : @message), :rows => 10, :cols => 40 }
-        p.submit {submit_tag "Submit"}
-      end
+end
+div.form do
+  form_tag :url => { :action => :contact , :anchor => "errorExplanation" }  do 
+    ul do
+      p {"Send us a message"}
+      dt {label "Name"}
+    	span {text_field_tag :name, "", :value => (@name.blank? ? nil : @name)}
+      dt {label :email,  "Email"}
+      span {text_field_tag :email, "", :value => (@email.blank? ? nil : @email)}
+      dt {label :msg,  "Message"}
+      span {text_area_tag :msg, (@message.blank? ? nil : @message), :rows => 10, :cols => 40 }
+      p.submit {submit_tag "Submit"}
     end
   end
 end
+div.errorExplanation! {flash[:notice]} if flash[:notice]
