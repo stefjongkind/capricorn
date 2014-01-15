@@ -1,6 +1,5 @@
 div.menu! do
   ul.tabrow do
-#	ul.menulist :id => "listMenuRoot" do
     li :class=> @current_action == 'index' ? 'active' : '' do
       span {link_to "Home", {:action=>:index}}
     end

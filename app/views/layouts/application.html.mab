@@ -8,10 +8,12 @@ html do
   end
 
   body do
-   	div.capricorn! {image_tag '../images/capricorn.gif', :border =>'0'}
-    div.wrapper! do
-      render :partial => 'menu'
-   		div.content! {div.text! {self << content_for_layout}}
+    div.body! do
+     	div.capricorn! {image_tag '../images/capricorn.gif', :border =>'0'}
+      div.wrapper! do
+        div {render :partial => 'menu'}
+     		div.content! {self << content_for_layout}
+      end
     end
   end
 end

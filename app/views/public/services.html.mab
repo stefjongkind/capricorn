@@ -1,7 +1,6 @@
 div.content! do
-  h2 {"Development of web sites and web based business systems"}
-  p.legend {"Development of robust yet intuitive applications which are functional and easy to use. Using an iterative development process with extensive communication between you, the client and the designer/developer we focus on developing a system that works for you."}
+  h2 {"Development of database driven web sites"}
+  p.legend {"Development of web solutions which are functional and easy to use. Dynamic systems, ranging from simple content management systems to advanced on line business systems."}
 
-  h2 {"Ruby on Rails"}
-  p.legend {"We are enthusiast members of the RoR community. Ruby on Rails is a web application framework released in 2004 that aims to increase the speed and ease of web development. Often shortened to Rails, or RoR, it is an open source project written in the Ruby language. "}
+
 end
