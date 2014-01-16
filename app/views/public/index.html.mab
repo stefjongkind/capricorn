@@ -1,9 +1,2 @@
 h2 {"Dynamic Web Solutions"}
-p {"Development of database driven web sites"}
-ul do
-  li {"content management"}
-  li {"e-commerce"}
-  li {"subscription based systems"}
-  li {"business systems"}
-end
 div.website {render :partial => 'portfolio'}

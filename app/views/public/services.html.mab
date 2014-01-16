@@ -1,6 +1,12 @@
 div.content! do
   h2 {"Development of database driven web sites"}
-  p.legend {"Development of web solutions which are functional and easy to use. Dynamic systems, ranging from simple content management systems to advanced on line business systems."}
+  ul do
+    li {"content management"}
+    li {"e-commerce"}
+    li {"subscription based systems"}
+    li {"business systems"}
+  end  
+  p.legend {"Web solutions that are functional and easy to use, ranging from web sites with a simple content management systems to complete on line business systems."}
 
 
 end

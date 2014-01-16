@@ -372,8 +372,8 @@ div.caption {
 	background:#fff;
 	padding:20px;
 	height:208px;
-	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:4px 4px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .css3-shadow:after
@@ -453,7 +453,7 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
 .tabrow:after {
     position: absolute;
     content: "";
-    width: 140%;
+    width: 180%;
     bottom: 0;
     left: 0;
     border-bottom: 1px solid #AAA;

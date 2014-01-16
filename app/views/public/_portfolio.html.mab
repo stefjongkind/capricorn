@@ -1,4 +1,3 @@
-h2 {"Examples"} 
 table :cellspacing=>'10px', :cellpadding => '0' do
 	tr do
 		td do
