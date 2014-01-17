@@ -1,2 +1,2 @@
-h2 {"Dynamic Web Solutions"}
+em {"Development of web sites, ranging from simple content management systems to complete interactive web solutions"}
 div.website {render :partial => 'portfolio'}

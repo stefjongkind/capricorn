@@ -1,12 +1,10 @@
-div.content! do
-  h2 {"Development of database driven web sites"}
-  ul do
-    li {"content management"}
-    li {"e-commerce"}
-    li {"subscription based systems"}
-    li {"business systems"}
-  end  
-  p.legend {"Web solutions that are functional and easy to use, ranging from web sites with a simple content management systems to complete on line business systems."}
+em {"Development of database driven web sites"}
+ul do
+  li {"content management"}
+  li {"e-commerce"}
+  li {"subscription based systems"}
+  li {"business systems"}
+end  
+#p.legend {"Web solutions that are functional and easy to use, ranging from web sites with simple content management to complete on line business systems."}
 
 
-end

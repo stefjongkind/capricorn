@@ -2,9 +2,8 @@ table :cellspacing=>'10px', :cellpadding => '0' do
 	tr do
 		td do
 			div :class => "box css3-shadow" do
-				span {link_to image_tag('http://www.thebluetree.co.nz/images/livemindfully_homepage.gif', :border=>'0'), 'http://www.thebluetree.co.nz', :target=>'_blank', :valign=>'top'}
-				div.caption {"The Blue Tree - Online Boutique for Handmade, Pre-loved, Vintage & Retro Fashion"} 
-				span.joint {"Content management and order admin system"} 
+				span {link_to image_tag('http://www.landplan.net.nz/images/landplanlogo.gif', :border=>'0', :width=>'400px'), 'http://www.landplan.net.nz', :target=>'_blank', :valign=>'top'}
+				div.caption {"Landscape Architects - Licensed Building Practitioner"} 
 			end
 		end 
 		td do 
@@ -16,15 +15,14 @@ table :cellspacing=>'10px', :cellpadding => '0' do
 			end
 		end
 		tr do
-			td :height=>'270' do
-#				h3 {"First National"} 
-				div :class => "box css3-shadow" do
-					span {link_to image_tag('http://www.goldenbayproperty.com/images/global/header_logo.gif', :border=>'0'), 'http://www.goldenbayproperty.com', :target=>'_blank', :valign=>'top' 	}
-					div.caption {"Real Estate in Golden Bay"} 
-					span.joint {"Content Management System. Joint project with "}
-					span {link_to "Nutcracker Design", 'http://www.nutcracker.co.nz', :target=>'blank'} 
-				end
-			end 
+  		td do
+  			div :class => "box css3-shadow" do
+  			  div.title {"The Blue Tree"}
+  				span {link_to image_tag('http://www.thebluetree.co.nz/images/livemindfully_homepage.gif', :border=>'0'), 'http://www.thebluetree.co.nz', :target=>'_blank', :valign=>'top'}
+  				div.caption {"Online Boutique for Handmade, Pre-loved, Vintage & Retro Fashion"} 
+  				span.joint {"Content management and order admin system"} 
+  			end
+  		end 
  			td do 
 # 				h3 {"Rankers"}
 				div :class => "box css3-shadow" do
@@ -37,12 +35,15 @@ table :cellspacing=>'10px', :cellpadding => '0' do
 		end
 	end
 	tr do
-			td do
-				div :class => "box css3-shadow" do
-					span {link_to image_tag('http://www.landplan.net.nz/images/landplanlogo.gif', :border=>'0', :width=>'400px'), 'http://www.landplan.net.nz', :target=>'_blank', :valign=>'top'}
-					div.caption {"Landscape Architects - Licensed Building Practitioner"} 
-				end
-			end 
+    			td :height=>'270' do
+    #				h3 {"First National"} 
+    				div :class => "box css3-shadow" do
+    					span {link_to image_tag('http://www.goldenbayproperty.com/images/global/header_logo.gif', :border=>'0'), 'http://www.goldenbayproperty.com', :target=>'_blank', :valign=>'top' 	}
+    					div.caption {"Real Estate in Golden Bay"} 
+    					span.joint {"Content Management System. Joint project with "}
+    					span {link_to "Nutcracker Design", 'http://www.nutcracker.co.nz', :target=>'blank'} 
+    				end
+    			end 
   end
 
 end
