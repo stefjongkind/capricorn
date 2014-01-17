@@ -59,9 +59,11 @@ a { color: gray; font-size:12px; text-decoration:none; }
 a:visited { color:orange; }
 a:hover { color: orange; }
 
-em {
+.intro {
+	width:90%;
 	font-family: sans-serif;
 	font-size:   18px;
+	line-height:22px;
 	font-weight: normal;
 	color:gray;
 }
@@ -221,7 +223,7 @@ span.caption {
 	line-height: 20px;
 	color:#666;
 	margin-top:5px;
-	float:right;
+	float:left;
 }
 
 .form {

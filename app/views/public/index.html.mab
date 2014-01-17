@@ -1,2 +1,2 @@
-em {"Development of web sites, ranging from simple content management systems to complete interactive web solutions"}
+div.intro {"We are a New Zealand based company offering web based solutions, highly interactive websites, database driven applications and business solutions."}
 div.website {render :partial => 'portfolio'}

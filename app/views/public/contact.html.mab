@@ -1,6 +1,6 @@
 div :class => "profile box css3-shadow" do
   span {image_tag "/images/stef_profile.jpg"}
-  span.caption {"Stef Jongkind"}
+  span.caption {"Stef Jongkind - Web developer"}
 end
 div.info do
   h2 "Contact Information"
