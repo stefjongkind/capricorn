@@ -113,7 +113,7 @@ li a {
 }
 
 #body {
-	width:1255px;
+	width:1155px;
 	margin-top:10px;
 	margin-bottom:10px;
 	box-shadow: -3px 2px 20px 0 #000000;
@@ -465,7 +465,7 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
 .tabrow:after {
     position: absolute;
     content: "";
-    width: 180%;
+    width: 970px;
     bottom: 0;
     left: 0;
     border-bottom: 1px solid #AAA;

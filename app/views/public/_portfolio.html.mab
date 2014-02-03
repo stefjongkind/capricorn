@@ -9,7 +9,7 @@ table :cellspacing=>'10px', :cellpadding => '0' do
 		td do 
 #				h3 {"Tracks"}
 			div :class => "box css3-shadow" do
-				div.caption {link_to image_tag('http://www.tracks.net.nz/images/tracks_logo.jpg', :border=>'0', :width=>'600px'), 'http://www.tracks.net.nz', :target=>'_blank', :valign=>'top' 	}
+				div.caption {link_to image_tag('http://www.tracks.net.nz/images/tracks_logo.jpg', :border=>'0'), 'http://www.tracks.net.nz', :target=>'_blank', :valign=>'top' 	}
 				div.caption {"Nature based, community led rites of passage for boys."}
 				span.joint {"Online relation management and event admin system"} 
 			end
