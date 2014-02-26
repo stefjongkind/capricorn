@@ -113,7 +113,7 @@ li a {
 }
 
 #body {
-	width:1155px;
+	width:1000px;
 	margin-top:10px;
 	margin-bottom:10px;
 	box-shadow: -3px 2px 20px 0 #000000;
@@ -149,10 +149,10 @@ li a {
 
 
 #main {
-	padding:2em;
-	margin-left:2em;
-	width:100%;
-	background:#515341;
+	margin:0;
+	padding:0;
+	width:90%;
+	height:100%;
 }
 
 #top_image_corner_left {
@@ -234,14 +234,19 @@ span.caption {
 	width:1200px;
 	height:450px;
 	
-}.form ul {
+}
+.form ul {
 	margin-top:0;
 	padding-top:0;
 }
 
+.form p {
+	font-family: Times, verdana, helvetica, sans-serif;
+	font-size:22px;
+}
+
 p.submit {
-	width:380px;
-	float:right;
+	margin-left:235px;
 }
 
 p.legend {
@@ -305,6 +310,7 @@ td .note a {
 .website {
 	margin:0;
 	padding:1em;
+	padding-top:5em;
 	padding-left:0;
 	width:auto;
 }
@@ -315,7 +321,7 @@ td .note a {
 }
 .website td {
 	height:auto;
-	width:450px;
+	width:400px;
 	margin:0;
 	vertical-align:top;
 }
@@ -337,7 +343,26 @@ td .note a {
 .website .image a:hover{
 	color:orange;
 	} 
-	
+
+div.affordable {
+	padding-top:2em;
+	padding-bottom:3em;
+}
+div.main_bullets {
+	float:left;
+	width:480px;
+	height:auto;
+}
+div.main_bullets li {
+	list-style:none;
+	padding-bottom:20px;
+}
+div.main_image {
+	padding:0;
+	float:left;
+	height:420px;
+	width:300px;
+}
 div.caption {
 	margin:0;
 	padding:0;
@@ -347,6 +372,20 @@ div.caption {
 	line-height: 16px;
 	color:#666;
 	margin-top:5px;
+}
+div.caption img {
+	width:200px;
+}
+div.rankers img {
+	height:60px;
+}
+
+div.firstnat img {
+	width:200px;
+}
+
+div.bluetree img {
+	height:80px;
 }
 
 .website .joint {
@@ -366,7 +405,7 @@ div.caption {
 }
 
 .title {
-	font-size:34px;
+	font-size:24px;
 	font-family: 'Papyrus', sans-serif;	
 	font-weight:bold;
 	line-height:38px;
@@ -383,7 +422,8 @@ div.caption {
   	position:relative;
 	background:#fff;
 	padding:20px;
-	height:208px;
+	height:100px;
+	width:200px;
 	-webkit-box-shadow:4px 4px 4px rgba(0, 0, 0, 0.3);
             box-shadow:4px 4px 4px rgba(0, 0, 0, 0.3);
 }
@@ -465,7 +505,7 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
 .tabrow:after {
     position: absolute;
     content: "";
-    width: 970px;
+    width: 900px;
     bottom: 0;
     left: 0;
     border-bottom: 1px solid #AAA;
@@ -489,7 +529,7 @@ background:radial-gradient(ellipse at 50% -3%, rgba(96, 251, 202, 0.8), rgba(112
 	color:gray;
 }
 .tabrow li a:hover {
-	color:blue;
+	color:#b61717;
 }
 .tabrow li {
     border-top-left-radius: 6px;

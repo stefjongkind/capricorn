@@ -1,9 +1,9 @@
-div :class => "profile box css3-shadow" do
-  span {image_tag "/images/stef_profile.jpg"}
-  span.caption {"Stef Jongkind - Web developer"}
-end
+#div.profile do
+#  span {image_tag "/images/stef_profile.jpg"}
+#  span.caption {"Stef Jongkind - Consultant"}
+#end
 div.info do
-  h2 "Contact Information"
+ span {image_tag("/images/contact.gif", :border => 0)}
   p.legend do
   	span {"Capricorn Information Systems"}
   	br
@@ -19,7 +19,7 @@ end
 div.form do
   form_tag :url => { :action => :contact , :anchor => "errorExplanation" }  do 
     ul do
-      p {"Send us a message"}
+      p {"We would love to hear from you"}
       dt {label "Name"}
     	span {text_field_tag :name, "", :value => (@name.blank? ? nil : @name)}
       dt {label :email,  "Email"}

@@ -1,12 +1,12 @@
-div.intro {"Development of database driven web sites and web applications"}
-ul do
-  li {"Example of systems we develop:"}
-  li {"---------------------------------------"}
-  li {"content management"}
-  li {"e-commerce"}
-  li {"subscription based systems"}
-  li {"advanced business systems"}
-end  
-#p.legend {"Web solutions that are functional and easy to use, ranging from web sites with simple content management to complete on line business systems."}
-
+div.main! do
+  div.affordable  {image_tag("/images/services.gif", :border => 0)}
+  div.main_bullets {
+    li {image_tag("/images/bullet_web.gif", :border => 0)}
+    li {image_tag("/images/bullet_app.gif", :border => 0)}
+    li {image_tag("/images/bullet_content.gif", :border => 0)}
+    li {image_tag("/images/bullet_database.gif", :border => 0)}
+    li {image_tag("/images/bullet_commerce.gif", :border => 0)}
+    li {image_tag("/images/bullet_maint.gif", :border => 0)}
+  }
+end
 
