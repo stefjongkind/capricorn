@@ -6,7 +6,7 @@ div.main! do
     li {image_tag("/images/bullet_content.gif", :border => 0)}
     li {image_tag("/images/bullet_database.gif", :border => 0)}
     li {image_tag("/images/bullet_commerce.gif", :border => 0)}
-    li {image_tag("/images/bullet_maint.gif", :border => 0)}
+    li {image_tag("/images/bullet_MAINT.gif", :border => 0)}
   }
 end
 
