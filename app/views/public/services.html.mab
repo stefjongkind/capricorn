@@ -1,12 +1,5 @@
 div.main! do
   div.affordable  {image_tag("/images/services.gif", :border => 0)}
-  div.main_bullets {
-    li {image_tag("/images/bullet_web.gif", :border => 0)}
-    li {image_tag("/images/bullet_app.gif", :border => 0)}
-    li {image_tag("/images/bullet_content.gif", :border => 0)}
-    li {image_tag("/images/bullet_database.gif", :border => 0)}
-    li {image_tag("/images/bullet_commerce.gif", :border => 0)}
-    li {image_tag("/images/bullet_maint.gif", :border => 0)}
-  }
+  div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
 end
 

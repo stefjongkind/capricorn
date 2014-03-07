@@ -269,6 +269,26 @@ p.home_legend {
 	text-align:justify;
 }
 
+p.main_text {
+	width:850px;
+	font-family: Verdana, helvetica, sans-serif;
+	font-size:20px;
+	line-height:26px;
+	text-align:left;
+}
+
+p.main_text a {
+	font-family: Verdana, helvetica, sans-serif;
+	font-size:20px;
+	line-height:26px;
+	color:blue;
+}
+
+.main_banner {
+	position:relative;
+	top:80px;
+}
+
 .bullet {
 	background: url(../images/bullet.gif) no-repeat;
 	padding-left:20px;
@@ -360,7 +380,7 @@ div.main_bullets li {
 div.main_image {
 	padding:0;
 	float:left;
-	height:420px;
+	height:260px;
 	width:300px;
 }
 div.caption {
