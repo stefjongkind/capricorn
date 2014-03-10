@@ -4,7 +4,7 @@ div.main! do
   div.main_image {image_tag("/images/home_page_image.gif", :border => 0)}
   #div.website {render :partial => 'portfolio'}
   p.main_text {"Capricornz is a web development company based in Golden Bay at the top of the South Island of New Zealand."}
-  p.main_text {" We develop database driven websites. This varies from simple content management systems and subscription based web sites to complete administrative systems. We also develop stand alone business applications."}
-  p.main_text {"20+ years experience in software development. We would love to hear from you. #{link_to 'Get in touch now', :action => :contact}, so we can arrange to discuss your requirements."}
+  p.main_text {"We specialise in the development of database driven websites. This varies from simple content management systems to complete business systems. We can also do stand alone business applications."}
+  p.main_text {"20+ years experience in software development. We support our local and wider community and are very competitively priced. We would love to hear from you. #{link_to 'Get in touch now', :action => :contact}, so we can arrange to discuss your requirements."}
   div.main_banner {image_tag("/images/main_page_banner.gif", :border => 0)}
 end

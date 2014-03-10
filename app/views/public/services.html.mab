@@ -1,6 +1,6 @@
 div.main! do
   div.affordable  {image_tag("/images/services.gif", :border => 0)}
   div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
-  div.main_image {image_tag("/images/splash.gif", :border => 0)}
+  div.main_image {image_tag("/images/wharariki.gif", :border => 0)}
 end
 
