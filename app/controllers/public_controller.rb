@@ -14,7 +14,7 @@ class PublicController < ApplicationController
       unless (@email.blank? or @name.blank? or @message.blank?)
         if emails_are_valid?(@email)
           if Notification.deliver_enquiry_notification(@email, @name, @message)
-           flash[:notice] = "Thanks, #{@name} for your enquiry. We will get back to you as soon as possible"
+           flash[:notice] = "Thanks, #{@name}. We have received your enquiry and will get back to you shortly"
            redirect_to :action => :contact, :anchor => 'errorExplanation'
           end
         else
