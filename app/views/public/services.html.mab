@@ -2,5 +2,7 @@ div.main! do
   div.affordable  {image_tag("/images/services.gif", :border => 0)}
   div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
   div.main_image {image_tag("/images/wharariki.gif", :border => 0)}
+  p.main_text {"A Content Management Systems (CMS) allow you to update and maintain your website from any location at any time. Changes to your website can be made quickly. <br><br>
+    Your business is different from everyone else's. We can deliver a solution that meets your unique business requirements. "}
 end
 
