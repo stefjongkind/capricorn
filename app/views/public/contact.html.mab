@@ -4,6 +4,7 @@
 #end
 div.info do
  span {image_tag("/images/contact.gif", :border => 0)}
+ div.contact {image_tag("/images/contact_image.gif", :border => 0)}
   p.legend do
   	span {"Capricorn Information Systems"}
   	br
@@ -15,7 +16,6 @@ div.info do
   	br
   	span {"Phone +64 3 5257249"}
   end
-  div.contact {image_tag("/images/contact_image.gif", :border => 0)}
   
 end
 div.form do
