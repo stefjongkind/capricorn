@@ -4,7 +4,7 @@
 #end
 div.info do
  span {image_tag("/images/contact.gif", :border => 0)}
- div.contact {image_tag("/images/contact_image.gif", :border => 0)}
+# div.contact {image_tag("/images/contact_image.gif", :border => 0)}
   p.legend do
   	span {"Capricorn Information Systems"}
   	br

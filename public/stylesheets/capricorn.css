@@ -207,7 +207,7 @@ li a {
 
 .info {
 	float:left;
-	width:250px;
+	width:300px;
 }
 
 .profile {
@@ -236,7 +236,7 @@ div.contact {
 .form {
 	margin:0;
 	padding:0;
-	width:1200px;
+	width:6000px;
 	height:450px;
 	
 }
@@ -251,7 +251,8 @@ div.contact {
 }
 
 p.submit {
-	margin-left:235px;
+	position:relative;
+	left:285;
 }
 
 p.legend {
