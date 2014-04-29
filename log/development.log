@@ -15126,3 +15126,624 @@ Rendering template within layouts/application
 Rendering public/services
 Rendered public/_menu (5.1ms)
 Completed in 36ms (View: 31, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (37.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (116.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:31:29) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (22.6ms)
+Completed in 178ms (View: 172, DB: 154) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:33:40) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (6.5ms)
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:34:16) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.2ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:34:44) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.3ms)
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:35:46) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.9ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:36:16) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.5ms)
+Completed in 102ms (View: 96, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:39:28) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.9ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:41:21) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.2ms)
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:42:00) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.1ms)
+Completed in 33ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:42:17) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.9ms)
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:42:24) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.5ms)
+Completed in 30ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:42:30) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (81.8ms)
+Completed in 125ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:42:36) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.2ms)
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:42:58) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.0ms)
+Completed in 71ms (View: 66, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:45:38) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.8ms)
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:45:56) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (8.2ms)
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:46:05) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.4ms)
+Completed in 102ms (View: 96, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:46:31) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (7.9ms)
+Completed in 33ms (View: 27, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:46:33) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (4.8ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:47:29) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.0ms)
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 21:47:36) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.7ms)
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:47:49) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.5ms)
+Completed in 99ms (View: 93, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:52:11) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (4.9ms)
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 21:58:35) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.0ms)
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:01:04) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.3ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:01:32) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (4.9ms)
+Completed in 102ms (View: 97, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:04:42) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (4.9ms)
+Completed in 93ms (View: 83, DB: 1) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:07:17) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.6ms)
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:07:27) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.4ms)
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:07:35) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.3ms)
+Completed in 28ms (View: 23, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:07:40) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.8ms)
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:08:26) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.1ms)
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:09:13) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.9ms)
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:09:22) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.1ms)
+Completed in 29ms (View: 23, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:09:50) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.7ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:10:15) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.8ms)
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:10:20) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.1ms)
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:10:23) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (4.5ms)
+Completed in 72ms (View: 66, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:12:10) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (4.8ms)
+Completed in 147ms (View: 140, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:12:27) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (78.2ms)
+Completed in 116ms (View: 111, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:13:09) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (6.3ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:13:17) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (4.9ms)
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:13:32) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.2ms)
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:13:44) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.5ms)
+Completed in 58ms (View: 51, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:14:38) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (4.7ms)
+Completed in 109ms (View: 103, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:15:18) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (75.9ms)
+Completed in 106ms (View: 101, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:16:05) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.5ms)
+Completed in 35ms (View: 29, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:16:19) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.0ms)
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:16:29) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.4ms)
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:16:36) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.1ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:16:45) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (78.7ms)
+Completed in 111ms (View: 105, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:17:21) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (6.2ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:18:37) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.3ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:18:55) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.8ms)
+Completed in 40ms (View: 34, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:19:05) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (4.7ms)
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:19:10) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (6.2ms)
+Completed in 113ms (View: 106, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:19:56) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.1ms)
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-28 22:20:00) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (6.4ms)
+Completed in 68ms (View: 62, DB: 0) | 200 OK [http://localhost/public/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:20:09) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.0ms)
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-28 22:20:27) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (6.1ms)
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-28 22:20:44) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (5.1ms)
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:37:48) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.7ms)
+Completed in 116ms (View: 110, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:38:45) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (4.5ms)
+Completed in 111ms (View: 104, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:39:01) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.3ms)
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:39:44) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.6ms)
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:39:56) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.1ms)
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#index (for 127.0.0.1 at 2014-04-29 20:40:30) [GET]
+Rendering template within layouts/application
+Rendering public/index
+Rendered public/_menu (5.3ms)
+Completed in 42ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#services (for 127.0.0.1 at 2014-04-29 20:40:53) [GET]
+Rendering template within layouts/application
+Rendering public/services
+Rendered public/_menu (78.8ms)
+Completed in 103ms (View: 98, DB: 0) | 200 OK [http://localhost/public/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PublicController#contact (for 127.0.0.1 at 2014-04-29 20:41:15) [GET]
+Rendering template within layouts/application
+Rendering public/contact
+Rendered public/_menu (5.8ms)
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://localhost/public/contact]

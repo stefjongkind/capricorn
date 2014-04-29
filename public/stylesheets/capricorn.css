@@ -236,18 +236,17 @@ div.contact {
 .form {
 	margin:0;
 	padding:0;
-	width:6000px;
+	width:1000px;
 	height:450px;
 	
 }
 .form ul {
 	margin-top:0;
-	padding-top:0;
+	padding-top:3em;
 }
 
 .form p {
-	font-family: Times, verdana, helvetica, sans-serif;
-	font-size:22px;
+	font-size:16px;
 }
 
 p.submit {
@@ -278,15 +277,15 @@ p.home_legend {
 p.main_text {
 	width:850px;
 	font-family: Verdana, helvetica, sans-serif;
-	font-size:20px;
-	line-height:26px;
-	text-align:left;
+	font-size:16px;
+	line-height:22px;
+	text-align:justify;
 }
 
 p.main_text a {
 	font-family: Verdana, helvetica, sans-serif;
-	font-size:20px;
-	line-height:26px;
+	font-size:16px;
+	line-height:22px;
 	color:blue;
 }
 
@@ -376,7 +375,7 @@ div.affordable {
 }
 div.main_bullets {
 	float:left;
-	width:480px;
+	width:450px;
 	height:auto;
 }
 div.main_bullets li {
@@ -387,7 +386,7 @@ div.main_image {
 	padding:0;
 	float:left;
 	height:260px;
-	width:300px;
+	width:340px;
 }
 div.caption {
 	margin:0;

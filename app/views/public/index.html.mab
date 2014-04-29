@@ -1,10 +1,9 @@
 div.main! do
   div.affordable {image_tag("/images/affordable_websites.gif", :border => 0)}
   div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
-  div.main_image {image_tag("/images/home_page_image.gif", :border => 0)}
+  div.main_image {image_tag("/images/narrow_street.jpg", :border => 0)}
   #div.website {render :partial => 'portfolio'}
-  p.main_text {"Capricornz is based in Golden Bay at the top of the South Island of New Zealand."}
-  p.main_text {"We develop database driven websites, which vary from simple content management systems to complete business applications as well as stand alone applications."}
+  p.main_text {"Capricornz is based in Golden Bay at the top of the South Island of New Zealandand and specialises in the development of database driven websites. These vary from content management systems to complete business applications and also stand alone applications."}
   p.main_text {"20+ years experience in software development, supporting our local and wider community at a very competitive price. "}
   p.main_text {"We would love to hear from you. #{link_to 'Get in touch now', :action => :contact}, so we can discuss your requirements and work with you on a solution which suits your needs."}
 #  div.main_banner {image_tag("/images/main_page_banner.gif", :border => 0)}
