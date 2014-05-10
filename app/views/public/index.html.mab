@@ -1,7 +1,7 @@
 div.main! do
   div.affordable {image_tag("/images/affordable_websites.gif", :border => 0)}
   div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
-  div.main_image {image_tag("/images/narrow_street.jpg", :border => 0)}
+  div.main_image {image_tag("/images/face_in_broken_window.gif", :border => 0)}
   #div.website {render :partial => 'portfolio'}
   p.main_text {"Capricornz is based in Golden Bay at the top of the South Island of New Zealandand and specialises in the development of database driven websites. These vary from content management systems to complete business applications and also stand alone applications."}
   p.main_text {"20+ years experience in software development, supporting our local and wider community at a very competitive price. "}

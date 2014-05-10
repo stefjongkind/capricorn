@@ -15,7 +15,7 @@ div.info do
   	br
   	span {"Phone +64 3 5257249"}
   end
-  div.contact {image_tag("/images/tabriz.jpg", :border => 0)}
+  div.contact {image_tag("/images/silhouet.jpg", :border => 0)}
   
 end
 div.form do
