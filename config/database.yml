@@ -19,7 +19,7 @@ test:
 production:
   adapter: mysql
   database: waiatea2_production
-  username: waiatea2_waiatea2
+  username: waiatea2
   password: Marama7142
   host: localhost
   encoding: utf8
