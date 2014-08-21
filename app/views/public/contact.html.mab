@@ -1,9 +1,5 @@
-#div.profile do
-#  span {image_tag "/images/stef_profile.jpg"}
-#  span.caption {"Stef Jongkind - Consultant"}
-#end
 div.info do
- span {image_tag("/images/contact.gif", :border => 0)}
+ span {image_tag("/images/contact.jpg", :border => 0)}
   p.legend do
   	span {"Capricorn Information Systems"}
   	br
@@ -14,9 +10,7 @@ div.info do
   	span {"New Zealand"}
   	br
   	span {"Phone +64 3 5257249"}
-  end
-  div.contact {image_tag("/images/silhouet.jpg", :border => 0)}
-  
+  end  
 end
 div.form do
   form_tag :url => { :action => :contact , :anchor => "errorExplanation" }  do 

@@ -1,7 +1,7 @@
 div.main! do
-  div.affordable  {image_tag("/images/services.gif", :border => 0)}
-  div.main_bullets {image_tag("/images/bullet_items.gif", :border => 0)}
-  div.main_image {image_tag("/images/opening.gif", :border => 0)}
+  div.affordable  {image_tag("/images/services.jpg", :border => 0)}
+  div.main_bullets {image_tag("/images/bullet_items.jpg", :border => 0)}
+  div.main_image {}
   p.main_text {"Content Management Systems (CMS) allow you to update and maintain your website from any location at any time. Changes to your website can be made quickly. <br><br>
     Your business is different from everyone else's. We can deliver a solution that meets your unique business requirements.<br><br>We use the Ruby on Rails framework for the development of web applications. Ruby on Rails is a web application framework released in 2004 that aims to increase the speed and ease of web development. Often shortened to Rails, or RoR, it is an open source project written in the Ruby language. "}
 end

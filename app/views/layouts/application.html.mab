@@ -9,7 +9,7 @@ html do
 
   body do
     div.body! do
-     	div.capricorn! {image_tag '../images/capricorn.gif', :border =>'0'}
+     	div.capricorn! {image_tag("/images/capricornz.jpg", :border => 0)}
       div.wrapper! do
         div {render :partial => 'menu'}
      		div.content! {self << content_for_layout}
