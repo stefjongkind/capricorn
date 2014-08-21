@@ -18,7 +18,7 @@ test:
 
 production:
   adapter: mysql
-  database: waiatea2_production
+  database: waiatea2_capricornz
   username: waiatea2
   password: Marama7142
   host: localhost
