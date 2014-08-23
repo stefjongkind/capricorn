@@ -6,6 +6,6 @@ ActionMailer::Base.smtp_settings = {
   :port           => 25,
   :domain         => 'capricornz.com',
   :authentication => :login,
-  :user_name      => 'info@capricornz.com',
+  :user_name      => 'waiatea2',
   :password       => 'Marama7142!'
 }
