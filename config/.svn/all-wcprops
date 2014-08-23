@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/capricorn/!svn/ver/2/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/capricorn/!svn/ver/1/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/capricorn/!svn/ver/1/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/capricorn/!svn/ver/1/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/capricorn/!svn/ver/1/config/environment.rb
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/capricorn/!svn/ver/2/config/deploy.rb
+END
