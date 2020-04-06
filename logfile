@@ -1,0 +1,12 @@
+LOG:  database system was shut down at 2020-04-03 20:29:32 NZDT
+LOG:  checkpoint record is at 0/A4CE8F0
+LOG:  redo record is at 0/A4CE8F0; undo record is at 0/0; shutdown TRUE
+LOG:  next transaction ID: 1284544; next OID: 971277
+LOG:  next MultiXactId: 1; next MultiXactOffset: 0
+LOG:  database system is ready
+LOG:  transaction ID wrap limit is 2147484146, limited by database "postgres"
+ERROR:  parameter "standard_conforming_strings" cannot be changed
+LOG:  unexpected EOF on client connection
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
